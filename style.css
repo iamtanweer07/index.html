@@ -1,0 +1,114 @@
+/* styles given using the class name of the divisions */
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+.heading{
+   width: 570px;
+   height: 80px;
+   color: #000000;
+   background: #ffe5e5;
+   font-size: 50px;
+   text-align: center;
+   align-items: center;
+   padding: 20px;
+   text-shadow: 4px 2px 3px #ffee00;
+   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+   border: 3px solid #ff0000;
+   margin: 30px auto;
+   border-radius: 10px;
+}
+  .hero{
+    width: 700px;
+    height: 650px;
+    border: 3px solid red;
+    background-color: #00f7ff;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 10px;
+    
+  }
+  #main {
+    width: 620px;
+    height: 580px;
+    background-color: #fff;
+    position: absolute;
+    margin: 30px;
+    border-radius: 30px;
+    
+  }
+  .box{
+    width: 530px;
+    height: 300px;
+    margin: 90px auto;
+    background-color: #ffe5e5;
+    position: relative;
+    border-radius: 8px;
+  }
+  .smart{
+    color: #000000;
+    font-size: 30pxpx;
+    font-weight: bold;
+    margin-top: -38px;
+    font-size: 30px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-shadow: 4px 3px 4px #fffb02;
+    cursor: pointer;
+  }
+  .watch{
+    width: 300px;
+    height: 280px;
+    margin: 10px 120px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer ;
+  }
+  .dollar{
+    text-align: center;
+    font-size: 40px ;
+    color:  #00f7ff;
+    text-shadow: 1px 1px 1px #000000 ;
+    cursor: pointer;
+  }
+
+  button{
+    border: 2px solid  #ff0000 ;
+    background: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color:#ff0000;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-weight: 800;
+    text-shadow: 2px 1px 1px #00ffbf ;
+  
+  }
+  button:hover{
+   background-color:  #00f7ff;
+   transition: 0.6s;
+   color: #00043d;
+   text-shadow: 2px 2px 1px #ffffff ;
+  } 
+  .smart_watch_image_list{
+    margin-left: 730px;
+    
+   } 
+  
+  .smart_watch_image_list img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #ff0000;
+    margin: 15px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+
+    
+  }
